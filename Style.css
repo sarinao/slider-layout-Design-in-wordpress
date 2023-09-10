@@ -68,5 +68,10 @@ selector .elementor-grid{
 selector .elementor-widget-container::-webkit-scrollbar {
     height: 0px;
 }
-/////
-/* 
+
+/* CSS code snippet on Right Divider Widge */
+selector .elementor-widget-container{
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}
+
+
