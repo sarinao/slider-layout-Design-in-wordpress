@@ -2,3 +2,34 @@
 selector{
     background: linear-gradient(130deg,#ff7a18,#af002d 41%,#319197 76%);
 }
+
+/* CSS code snippet on Right Container */
+@media (min-width:768px){
+selector{
+    max-width: calc(100% - 260px);
+}    
+}
+
+/*CSS code snippet for Post Title */
+
+selector{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+/* CSS code snippet for Post Category */
+
+selector a{
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 2px;
+}
+
+
+
+
