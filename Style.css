@@ -30,6 +30,43 @@ selector a{
     margin-bottom: 2px;
 }
 
+/* CSS code snippet on Post Widget */
 
-
-
+selector{
+    --article: 10;
+}
+selector{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+selector > .elementor-widget-container{
+    overflow: auto;
+}
+selector a{
+    text-decoration: none;
+    -webkit-user-drag: none;
+}
+selector a:focus{
+    outline: none;
+}
+selector article:first-child{
+    margin-left: 0;
+}
+selector article{
+    width: 300px;
+    margin-left: -130px;
+    transition: all 0.2s ease-in-out;
+}
+selector article:hover{
+    transform: translateY(-1rem) rotate(3deg);
+    margin-right: 80px;
+}
+selector .elementor-grid{
+    grid-template-columns: repeat(var(--article),1fr);
+}
+selector .elementor-widget-container::-webkit-scrollbar {
+    height: 0px;
+}
+/////
+/* 
